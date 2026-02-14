@@ -102,7 +102,7 @@ public class Employe {
             scores[i] = scr.nextInt();
 
             if (scores[i] < 0 || scores[i] > 100) {
-                System.out.println("Invalid Score! Must be between 0-100.");
+                System.out.println("Invalid Score!");
                 scr.close();
                 return;
             }
